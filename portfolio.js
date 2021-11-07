@@ -15,7 +15,6 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-	facebook: "https://www.facebook.com/people/Lavish-Goyal/100009850892980/",
 	instagram: "https://www.instagram.com/lavi_g10/",
 	twitter: "https://twitter.com/lavishG10",
 	github: "https://github.com/goellavish10",
