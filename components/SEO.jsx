@@ -46,6 +46,7 @@ function SEO({ data }) {
 				src="https://code.iconify.design/1/1.0.4/iconify.min.js"
 			></script>
 			{/* Global site tag (gtag.js) - Google Analytics  */}
+			{/* eslint-disable-next-line @next/next/next-script-for-ga */}
 			<script async src="https://www.googletagmanager.com/gtag/js?id=G-M2EEKHM2PJ" />
 			<script dangerouslySetInnerHTML={{
 				__html: `window.dataLayer = window.dataLayer || [];
