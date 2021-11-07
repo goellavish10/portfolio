@@ -22,7 +22,7 @@ export default function Home({ githubProfileData }) {
 					title: "Lavish Goyal",
 					description:
 						"A passionate Full Stack Web Developer",
-					image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
+					image: "https://avatars.githubusercontent.com/u/66069216?s=400&u=c20614b28496fa7386b388e8804c5ed099d818fc&v=4",
 					url: "https://developer-portfolio-1hanzla100.vercel.app",
 					keywords: [
 						"lavish",
@@ -42,8 +42,7 @@ export default function Home({ githubProfileData }) {
 						"nodejs ",
 						"expressjs",
 						"reactjs ",
-						"contextapi",
-						"redux",
+						"skillypandaz",
 					],
 				}}
 			/>
@@ -53,7 +52,7 @@ export default function Home({ githubProfileData }) {
 			<Proficiency />
 			<Education />
 			<Experience />
-			<Feedbacks />
+			{/* <Feedbacks /> */}
 			<Projects />
 			<GithubProfileCard prof={githubProfileData} />
 		</div>

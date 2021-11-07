@@ -1,40 +1,37 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "Hanzla Tauqeer",
-	title: "Hi all, I'm Hanzla",
+	name: "Lavish Goyal",
+	title: "Hi all, I'm Lavish",
 	description:
-		"A passionate Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Python / Django / Flask and some other cool libraries and frameworks and Cross Platform Mobile Apps With Flutter.",
+		"A passionate Full Stack Web Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks.",
 	resumeLink: "https://cv.hanzla.ga",
 };
 
 export const openSource = {
-	githubUserName: "1hanzla100",
+	githubUserName: "goellavish10",
 };
 
 export const contact = {};
 
 export const socialLinks = {
-	facebook: "https://www.facebook.com/1hanzla100",
-	instagram: "https://www.instagram.com/1hanzla100",
-	twitter: "https://twitter.com/1hanzla100",
-	github: "https://github.com/1hanzla100",
-	linkedin: "https://www.linkedin.com/in/hanzla-tauqeer-0869281ba/",
+	facebook: "https://www.facebook.com/people/Lavish-Goyal/100009850892980/",
+	instagram: "https://www.instagram.com/lavi_g10/",
+	twitter: "https://twitter.com/lavishG10",
+	github: "https://github.com/goellavish10",
+	linkedin: "https://www.linkedin.com/in/goellavish10",
 };
 
 export const skillsSection = {
 	title: "What I do",
 	subTitle:
-		"CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+		"A MERN STACK DEVELOPER AND PASSIONATE ABOUT BACKEND",
 	skills: [
 		emoji(
-			"⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+			"⚡ Developing interactive front-end applications with frameworks like tailwind, bootstrap etc"
 		),
 		emoji(
-			"⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"
-		),
-		emoji(
-			"⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+			"⚡ Integration of third party services such as Heroku / Digital Ocean"
 		),
 	],
 
@@ -64,48 +61,28 @@ export const skillsSection = {
 			fontAwesomeClassname: "vscode-icons:file-type-reactjs",
 		},
 		{
+			skillName: "nextjs",
+			fontAwesomeClassname: "vscode-icons:file-type-next",
+		},
+		{
 			skillName: "nodejs",
 			fontAwesomeClassname: "logos:nodejs-icon",
-		},
-		{
-			skillName: "flutter",
-			fontAwesomeClassname: "logos:flutter",
-		},
-		{
-			skillName: "swift",
-			fontAwesomeClassname: "vscode-icons:file-type-swift",
 		},
 		{
 			skillName: "npm",
 			fontAwesomeClassname: "vscode-icons:file-type-npm",
 		},
 		{
-			skillName: "sql-database",
-			fontAwesomeClassname: "vscode-icons:file-type-sql",
-		},
-		{
 			skillName: "mongoDB",
 			fontAwesomeClassname: "vscode-icons:file-type-mongo",
 		},
-		{
-			skillName: "aws",
-			fontAwesomeClassname: "logos:aws",
-		},
-		{
-			skillName: "firebase",
-			fontAwesomeClassname: "logos:firebase",
-		},
-		{
-			skillName: "python",
-			fontAwesomeClassname: "logos:python",
-		},
+		// {
+		// 	skillName: "firebase",
+		// 	fontAwesomeClassname: "logos:firebase",
+		// },
 		{
 			skillName: "git",
 			fontAwesomeClassname: "logos:git-icon",
-		},
-		{
-			skillName: "docker",
-			fontAwesomeClassname: "logos:docker-icon",
 		},
 	],
 };
@@ -113,11 +90,11 @@ export const skillsSection = {
 export const SkillBars = [
 	{
 		Stack: "Frontend/Design", //Insert stack or technology you have experience in
-		progressPercentage: "90", //Insert relative proficiency in percentage
+		progressPercentage: "50", //Insert relative proficiency in percentage
 	},
 	{
 		Stack: "Backend",
-		progressPercentage: "70",
+		progressPercentage: "80",
 	},
 	{
 		Stack: "Programming",
@@ -127,80 +104,80 @@ export const SkillBars = [
 
 export const educationInfo = [
 	{
-		schoolName: "Harvard University",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
+		schoolName: "Dr. B.R. Ambedkar National Institute of Technology, Jalandhar",
+		subHeader: "Bachelor Electronics & Communication Engineering",
+		duration: "December 2021 - Present",
+		desc: "Participated in various speaking contests within college.",
 		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"Core member of GDSC & Codechef Chapter NIT-J",
+			"Class representative",
 		],
 	},
-	{
-		schoolName: "Harvard",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
-		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetfgur adipiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		],
-	},
-	{
-		schoolName: "Stanford University",
-		subHeader: "Bachelor of Science in Computer Science",
-		duration: "September 2013 - April 2017",
-		desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-		descBullets: [
-			"Lorem ipsum dolorfdg sit amet, consectetur adipiscing elit",
-		],
-	},
+	// {
+	// 	schoolName: "Harvard",
+	// 	subHeader: "Master of Science in Computer Science",
+	// 	duration: "September 2017 - April 2019",
+	// 	desc: "Participated in the research of XXX and published 3 papers.",
+	// 	descBullets: [
+	// 		"Lorem ipsum dolor sit amet, consectetfgur adipiscing elit",
+	// 		"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+	// 	],
+	// },
+	// {
+	// 	schoolName: "Stanford University",
+	// 	subHeader: "Bachelor of Science in Computer Science",
+	// 	duration: "September 2013 - April 2017",
+	// 	desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+	// 	descBullets: [
+	// 		"Lorem ipsum dolorfdg sit amet, consectetur adipiscing elit",
+	// 	],
+	// },
 ];
 
 export const experience = [
 	{
-		role: "Software Engineer",
-		company: "Google",
-		companylogo: "/img/icons/common/google.svg",
-		date: "June 2018 – Present",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-		descBullets: [
-			"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		],
+		role: "Full Stack Web Developer",
+		company: "Yottabite",
+		companylogo: "/img/icons/common/logo1.svg",
+		date: "October 2021 – Present",
+		desc: "Responsible for developing all the customer and seller facing tools as well as adming dashboard.",
+		// descBullets: [
+		// 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
+		// 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+		// ],
 	},
-	{
-		role: "Front-End Developer",
-		company: "Github",
-		companylogo: "/img/icons/common/github.svg",
-		date: "May 2017 – May 2018",
-		desc: "Lorem ipsum dolor sit amet, consefdctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-	},
-	{
-		role: "Software Engineer Intern",
-		company: "Airbnb",
-		companylogo: "/img/icons/common/airbnbLogo.png",
-		date: "Jan 2015 – Sep 2015",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-	},
+	// {
+	// 	role: "Front-End Developer",
+	// 	company: "Github",
+	// 	companylogo: "/img/icons/common/github.svg",
+	// 	date: "May 2017 – May 2018",
+	// 	desc: "Lorem ipsum dolor sit amet, consefdctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+	// },
+	// {
+	// 	role: "Software Engineer Intern",
+	// 	company: "Airbnb",
+	// 	companylogo: "/img/icons/common/airbnbLogo.png",
+	// 	date: "Jan 2015 – Sep 2015",
+	// 	desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+	// },
 ];
 
 export const projects = [
 	{
-		name: "lorem ipsum",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		link: "https://example.com",
+		name: "E-Commerce Website",
+		desc: "A full stack ecommerce website (MERN STACK)",
+		github: "https://github.com/goellavish10/ecommerce",
 	},
 	{
-		name: "lorem ipsum",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		github: "https://github.com/1hanzla100",
+		name: "Link Shortner",
+		desc: "A simple Nodejs / EJS Link shortening service",
+		github: "https://github.com/goellavish10/shortner",
 	},
 	{
-		name: "lorem ipsum",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		github: "https://github.com/1hanzla100",
-		link: "https://example.com",
+		name: "Blog Wesbite",
+		desc: "Nodejs / Handlebars / MongoDB / Heroku Blog Website",
+		github: "https://github.com/goellavish10/eceblog-new",
+		link: "https://eceblog.herokuapp.com/",
 	},
 ];
 
