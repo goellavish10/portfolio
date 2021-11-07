@@ -83,6 +83,10 @@ export const skillsSection = {
 			skillName: "git",
 			fontAwesomeClassname: "logos:git-icon",
 		},
+		{
+			skillName: "cpp",
+			fontAwesomeClassname: "vscode-icons:file-type-cpp",
+		},
 	],
 };
 
