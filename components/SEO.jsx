@@ -54,7 +54,8 @@ function SEO({ data }) {
 				}
 				gtag('js', new Date());
 
-				gtag('config', 'G-M2EEKHM2PJ');`}} />
+				gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}');`
+			}} />
 
 
 		</Head>
