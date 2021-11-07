@@ -22,8 +22,8 @@ export default function Home({ githubProfileData }) {
 					title: "Lavish Goyal",
 					description:
 						"A passionate Full Stack Web Developer",
-					image: "https://avatars.githubusercontent.com/u/66069216?s=400&u=c20614b28496fa7386b388e8804c5ed099d818fc&v=4",
-					url: "https://developer-portfolio-1hanzla100.vercel.app",
+					image: "https://drive.google.com/file/d/1bIoY1KCOCK30LDGc4Df_NWelvV4zezpp/view?usp=sharing",
+					url: "https://lavishgoyal.vercel.app/",
 					keywords: [
 						"lavish",
 						"Lavish Goyal",
