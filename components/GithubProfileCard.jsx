@@ -34,6 +34,8 @@ const GithubProfileCard = ({ prof }) => {
 						</Col>
 					</Row>
 				</div>
+				<a href="https://www.teacheron.com/tutor-profile/4gH6?r=4gH6" target="_blank" style={{ display: "inline-block" }}><img src="https://www.teacheron.com/resources/assets/img/badges/proudToBeTeacher.png" style={{ width: "120px !important", height: "52px !important" }} /></a>
+
 			</Container>
 		</Card>
 	);
