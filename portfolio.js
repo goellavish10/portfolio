@@ -93,7 +93,7 @@ export const skillsSection = {
 export const SkillBars = [
 	{
 		Stack: "Frontend/Design", //Insert stack or technology you have experience in
-		progressPercentage: "50", //Insert relative proficiency in percentage
+		progressPercentage: "60", //Insert relative proficiency in percentage
 	},
 	{
 		Stack: "Backend",
@@ -101,7 +101,7 @@ export const SkillBars = [
 	},
 	{
 		Stack: "Programming",
-		progressPercentage: "60",
+		progressPercentage: "70",
 	},
 ];
 
@@ -179,7 +179,6 @@ export const projects = [
 	{
 		name: "Blog Wesbite",
 		desc: "Nodejs / Handlebars / MongoDB / Heroku Blog Website",
-		github: "https://github.com/goellavish10/eceblog-new",
 		link: "https://eceblog.herokuapp.com/",
 	},
 ];
