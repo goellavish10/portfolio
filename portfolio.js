@@ -32,6 +32,10 @@ export const skillsSection = {
     emoji(
       "⚡ Integration of third party services such as Heroku / Digital Ocean"
     ),
+    emoji("⚡ Developing highly efficient and secure web apps"),
+    emoji(
+      "⚡ Developing efficient and scalable REST APIs for business solutions"
+    ),
   ],
 
   softwareSkills: [
@@ -112,7 +116,8 @@ export const educationInfo = [
     duration: "December 2020 - Present",
     desc: "Participated in various speaking contests within college.",
     descBullets: [
-      "Core member of GDSC & Codechef Chapter NIT-J",
+      "Internship Representative for Batch 2024",
+      "Core member of GDSC & Codechef Chapter NITJ",
       "Class representative",
     ],
   },
@@ -149,13 +154,17 @@ export const experience = [
     // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     // ],
   },
-  //   {
-  //     role: "Full Stack Web Developer",
-  //     company: "Yottabite",
-  //     companylogo: "/img/icons/common/logo1.svg",
-  //     date: "October 2021 - Feburary 2022",
-  //     desc: "Responsible for developing all the customer and seller facing tools as well as adming dashboard.",
-  //   },
+  {
+    role: "Full Stack Web Developer",
+    company: "Yottabite",
+    companylogo: "/img/icons/common/logo1.svg",
+    date: "October 2021 - Feburary 2022",
+    desc: "Responsible for developing all the customer and seller facing tools as well as admin dashboard.",
+    descBullets: [
+      "Developing and deploying the application on Digital Ocean/AWS",
+      "Developing REST APIs for the internal company tools",
+    ],
+  },
 
   // {
   // 	role: "Front-End Developer",
@@ -188,6 +197,11 @@ export const projects = [
     name: "Blog Wesbite",
     desc: "Nodejs / Handlebars / MongoDB / Heroku Blog Website",
     link: "https://eceblog.herokuapp.com/",
+  },
+  {
+    name: "ATC Couriers Booking Website",
+    desc: "Nodejs / EJS / MongoDB / Digital Oceans",
+    link: "https://bookings.atccouriers.com.au/",
   },
 ];
 
