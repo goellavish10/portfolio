@@ -116,7 +116,7 @@ export const educationInfo = [
     duration: "December 2020 - Present",
     desc: "Participated in various speaking contests within college.",
     descBullets: [
-      "Internship Representative for Batch 2024",
+      "Internship Coordinator",
       "Core member of GDSC & Codechef Chapter NITJ",
       "Class representative",
     ],
@@ -163,6 +163,19 @@ export const experience = [
     descBullets: [
       "Developing and deploying the application on Digital Ocean/AWS",
       "Developing REST APIs for the internal company tools",
+    ],
+  },
+  {
+    role: "Freelance Developer",
+    company: "ATC Couriers",
+    companylogo: "/img/icons/common/atcfav.png",
+    date: "October 2021 - Present",
+    desc: "Responsible for developing and maintaining the booking system web app.",
+    descBullets: [
+      "Developing and deploying the application on Digital Ocean",
+      "Developing & maintaining the the the database and the backend server",
+      "Continuous upgrade and keeping the web app online",
+      "Developing automatic dispatch system algorithm for the booking system",
     ],
   },
 
