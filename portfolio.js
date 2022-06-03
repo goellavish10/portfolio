@@ -144,17 +144,6 @@ export const educationInfo = [
 
 export const experience = [
   {
-    role: "ReactJS Developer",
-    company: "Unomonk",
-    companylogo: "/img/icons/common/logo.jpg",
-    date: "March 2022 - Present",
-    desc: "Developing the admin panel in Material UI and ReactJS",
-    // descBullets: [
-    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    // ],
-  },
-  {
     role: "Full Stack Web Developer",
     company: "Yottabite",
     companylogo: "/img/icons/common/logo1.svg",
@@ -165,6 +154,18 @@ export const experience = [
       "Developing REST APIs for the internal company tools",
     ],
   },
+  {
+    role: "ReactJS Developer",
+    company: "Unomonk",
+    companylogo: "/img/icons/common/logo.jpg",
+    date: "March 2022 - May 2022",
+    desc: "Developing the admin panel in Material UI and ReactJS",
+    // descBullets: [
+    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
+    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    // ],
+  },
+
   {
     role: "Freelance Developer",
     company: "ATC Couriers",
